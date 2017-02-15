@@ -1,0 +1,64 @@
+/*
+#container { margin:1em auto; border-collapse:collapse }
++.grid td {
++    cursor:pointer;
++    width:30px; height:30px;
++    border:1px solid #ccc;
++    text-align:center;
++    font-family:sans-serif; font-size:13px
++}
++.grid td.clicked {
++    background-color:yellow;
++    font-weight:bold; color:red;
++} */
+
+body {
+  background-color: purple;
+}
+
+#container {
+  width: 900px;
+  height: 500px;
+  overflow: auto;
+}
+.colorGrid {
+  width:15px; height:15px;
+  border:1px solid black;
+  background-color: white;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+}
+
+.brush {
+  display: inline-block;
+  width: 86px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+
+#palette {
+  width: 880px;
+  height: 100px;
+  background-color: black;
+  /*border: 2px solid white;*/
+  position: relative;
+  bottom: 0;
+}
+
+h1 {
+  color: white;
+  width: 880px;
+  text-align: center;
+  border: white;
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
